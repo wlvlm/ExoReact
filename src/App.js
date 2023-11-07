@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+import LatestArticle from './latestArticle';
+import Footer from './Footer';
+import Header from './Header';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Header />
+      <LatestArticle />
+      <Footer />
     </div>
   );
 }
