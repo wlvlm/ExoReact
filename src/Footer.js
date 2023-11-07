@@ -3,17 +3,17 @@ import './App.css'
 function Footer(){
     return (
         <footer>
-            <div class="footer">
+            <div class="App-footer">
                 <ul>
-                    <li><a href="#">Nous trouver
+                    <li><a href="#" class="App-link">Nous trouver
                         </a></li>
-                    <li><a href="#">Nous contacter
+                    <li><a href="#" class="App-link">Nous contacter
                         </a></li>
-                    <li><a href="#">Nous suivre
+                    <li><a href="#" class="App-link">Nous suivre
                         </a></li>
                 </ul>
-            </div>
             <p>&copy; La Piscine 2023. Tous droits réservés</p>
+            </div>
         </footer>
     )
 }

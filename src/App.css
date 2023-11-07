@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -37,3 +43,17 @@
   }
 }
 
+.App-footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-footer ul{
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 5vh;
+}
